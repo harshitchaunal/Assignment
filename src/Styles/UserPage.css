@@ -1,0 +1,46 @@
+.user-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .user-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-name {
+    margin-top: 10px;
+  }
+  
+  .email-details {
+    margin-top: 10px;
+  }
+  
+  .contact-details,
+  .assignments {
+    margin-top: 10px;
+  }
+  
+  .assignments > div {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .user-details {
+      width: 100%;
+    }
+  }
+  

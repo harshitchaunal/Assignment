@@ -1,0 +1,30 @@
+/* UserDetails.css */
+
+.user-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Add more styling as needed */
+  

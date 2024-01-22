@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2f80ed;
+}
+
+.login-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2f80ed;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #2f80ed;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.login-btn {
+  background-color: #2f80ed;
+  color: #fff;
+}
+
+.login-btn:hover {
+  background-color: #1c6de4;
+}
+
+.clear-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.clear-btn:hover {
+  background-color: #d43a2f;
+}
+
+.message {
+  margin-top: 15px;
+  color: #2f80ed;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 480px) {
+  .form-group {
+    text-align: center;
+  }
+
+  .button-container {
+    align-items: stretch;
+  }
+}
