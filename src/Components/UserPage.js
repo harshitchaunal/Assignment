@@ -1,6 +1,5 @@
 import React from 'react';
 import UserDetails from './UserDetails';
-// import '../Styles/UserPage.css';
 const UserPage = ({ userData }) => {
   return (
     <div className="user-page">

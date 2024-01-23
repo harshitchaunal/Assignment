@@ -6,7 +6,9 @@ const LoginForm = () => {
   const [message, setMessage] = useState('');
 
   const handleLogin = () => {
-    setMessage(`Login successful with username: ${username} and password: ${password}`);
+    setMessage(`Login successful with username: ${username} `);
+    // hidding the password as showing password in ui can be vulnerable.
+    // setMessage(`Login successful with username: ${username} and password: ${password}`);
   };
 
   const handleClear = () => {
